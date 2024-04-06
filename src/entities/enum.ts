@@ -1,0 +1,4 @@
+export enum RESPONSE_STATUS{
+    SUCCESS="SUCCESS",
+    FAIL="FAIL"
+}
