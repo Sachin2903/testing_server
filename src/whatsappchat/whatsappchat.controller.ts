@@ -7,8 +7,8 @@ import { UpdateWhatsappchatDto } from './dto/update-whatsappchat.dto';
 export class WhatsappchatController {
   constructor(private readonly whatsappchatService: WhatsappchatService) {}
 
-  @Post()
-  create(@Body() createWhatsappchatDto: CreateWhatsappchatDto) {
+  @Post("/whatsappchattestserver")
+  create(@Body() createWhatsappchatDto: any) {
     return this.whatsappchatService.create(createWhatsappchatDto);
   }
 

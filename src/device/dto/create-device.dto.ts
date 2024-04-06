@@ -1,1 +1,4 @@
-export class CreateDeviceDto {}
+export class CreateDeviceDto {
+
+    readonly number:string;
+}

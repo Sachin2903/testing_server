@@ -8,5 +8,6 @@ import { ResponseSchema } from './schema/response.schema';
   imports:[MongooseModule.forFeature([{name:"Response",schema:ResponseSchema}])],
   controllers: [ResponseController],
   providers: [ResponseService],
+  exports: [ResponseService],
 })
 export class ResponseModule {}
